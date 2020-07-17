@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
-import EmployeeCard from "./components/FriendCard";
+import EmployeeCard from "./components/EmployeeCard";
 import employees from "./employees.json";
 
 class App extends Component {
@@ -13,7 +13,7 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Title>Employee Directory</Title>
+        <Title>Adventure Bay City Employee Directory</Title>
         {this.state.employees.map(employee => (
             <EmployeeCard
               id={employee.id}
@@ -21,7 +21,8 @@ class App extends Component {
               name={employee.name}
               image={employee.image}
               occupation={employee.occupation}
-              location={employee.location}
+              salary={employee.salary}
+              catchphrase={employee.catchphrase}
             />
           ))};
       </Wrapper>
