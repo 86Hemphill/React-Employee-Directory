@@ -24,7 +24,7 @@ class App extends Component {
               salary={employee.salary}
               catchphrase={employee.catchphrase}
             />
-          ))};
+          ))}
       </Wrapper>
   )};
 }
