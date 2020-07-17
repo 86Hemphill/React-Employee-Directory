@@ -1,7 +1,13 @@
+@font-face {
+  font-family: GROBOLD;
+  src: url("../../GROBOLD.ttf");
+}
+
 .title {
   width: 100%;
   text-align: center;
   font-size: 3rem;
+  font-family: GROBOLD, serif;
   text-decoration: underline;
   color: #2A77AE;
   margin-bottom: 50px;

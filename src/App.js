@@ -20,7 +20,7 @@ class App extends Component {
               key={employee.id}
               name={employee.name}
               image={employee.image}
-              occupation={employee.occupation}
+              title={employee.title}
               salary={employee.salary}
               catchphrase={employee.catchphrase}
             />

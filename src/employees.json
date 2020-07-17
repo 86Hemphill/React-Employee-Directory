@@ -3,7 +3,7 @@
       "id": 1,
       "name": "Mayor Goodway",
       "image": "./assets/images/Mayorgoodway.png",
-      "occupation": "Mayor of Adventure Bay",
+      "title": "Mayor of Adventure Bay",
       "salary": 50000,
       "catchphrase": "\"Look, Chickaletta, it's Ryder!\""
     },
@@ -11,7 +11,7 @@
       "id": 2,
       "name": "Ryder",
       "image": "./assets/images/Ryder.png",
-      "occupation": "Leader of the PAW Patrol",
+      "title": "Leader of the PAW Patrol",
       "salary": 35000,
       "catchphrase": "\"No job is too big, no pup is too small!\""
     },
@@ -19,7 +19,7 @@
       "id": 3,
       "name": "Chase",
       "image": "./assets/images/Chase.png",
-      "occupation": "Traffic Cop pup, Super-Spy",
+      "title": "Traffic Cop pup, Super-Spy",
       "salary": 25000,
       "catchphrase": "\"Ready for action, Ryder, sir!\""
     },
@@ -27,7 +27,7 @@
       "id": 4,
       "name": "Marshall",
       "image": "./assets/images/Marshall.png",
-      "occupation": "Firefighter pup, Medic pup",
+      "title": "Firefighter pup, Medic pup",
       "salary": 25000,
       "catchphrase": "\"Ready for a ruff, ruff rescue!\""
     },
@@ -35,7 +35,7 @@
       "id": 5,
       "name": "Skye",
       "image": "./assets/images/Skye.png",
-      "occupation": "Aviation pup, Air-Rescue pup",
+      "title": "Aviation pup, Air-Rescue pup",
       "salary": 25000,
       "catchphrase": "\"Let's take to the sky!\""
     },
@@ -43,9 +43,33 @@
       "id": 6,
       "name": "Rubble",
       "image": "./assets/images/Rubble.png",
-      "occupation": "Construction pup, Heavy Equipment pup",
+      "title": "Construction pup, Heavy Equipment pup",
       "salary": 25000,
       "catchphrase": "\"Rubble on the double!\""
+    },
+    {
+      "id": 7,
+      "name": "Everest",
+      "image": "./assets/images/Everest.png",
+      "title": "Snow / Mountain Rescue Pup",
+      "salary": 25000,
+      "catchphrase": "\"Ice or snow, I'm ready to go!\""
+    },
+    {
+      "id": 8,
+      "name": "Rex",
+      "image": "./assets/images/Rex.png",
+      "title": "Dino Pup / Ally of the PAW Patrol",
+      "salary": 25000,
+      "catchphrase": "\"Let's dino do this!\""
+    },
+    {
+      "id": 9,
+      "name": "Rocky",
+      "image": "./assets/images/Rocky.png",
+      "title": "Recycling / Ecology Pup",
+      "salary": 25000,
+      "catchphrase": "\"Don't lose it, reuse it!\""
     }
     
   ]
