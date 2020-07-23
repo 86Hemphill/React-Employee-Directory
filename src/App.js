@@ -19,7 +19,19 @@ class App extends Component {
         return 0;
       }
     });
-    debugger;
+    this.setState({ filteredEmployees: sortedEmployees });
+  }
+
+  sortBySalary() {
+    const sortedEmployees = this.state.employees.slice().sort((a, b) => {
+      if (a.salary > b.salary) {
+        return 1;
+      } else if(a.salary < b.salary) {
+        return -1;
+      } else {
+        return 0;
+      }
+    });
     this.setState({ filteredEmployees: sortedEmployees });
   }
 
@@ -30,20 +42,20 @@ class App extends Component {
                 <thead>
                   <tr className="table-primary">
                     <th scope="col"></th>
-                    <th scope="col" onClick={this.sortByName.bind(this)}>Name</th>
+                    <th scope="col" className="sort" onClick={this.sortByName.bind(this)}>Name</th>
                     <th scope="col">Title</th>
-                    <th scope="col">Salary</th>
+                    <th scope="col" className="sort" onClick={this.sortBySalary.bind(this)}>Salary</th>
                     <th scope="col">Catchphrase</th>
                   </tr>
                 </thead>
                 <tbody>
                   {this.state.filteredEmployees.map(employee => (
                     <tr key={employee.id}>
-                      <td><img className="tableImg" src={employee.image}/></td>
-                      <td>{employee.name}</td>
-                      <td>{employee.title}</td>
-                      <td>{employee.salary}</td>
-                      <td>{employee.catchphrase}</td>
+                      <td className="align-middle"><img className="tableImg" src={employee.image}/></td>
+                      <td className="align-middle">{employee.name}</td>
+                      <td className="align-middle">{employee.title}</td>
+                      <td className="align-middle">{employee.salary}</td>
+                      <td className="align-middle">{employee.catchphrase}</td>
                     </tr>
                   ))}
                 </tbody>
