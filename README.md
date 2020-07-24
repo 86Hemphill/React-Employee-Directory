@@ -1,4 +1,12 @@
+# Employee-Directory
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+![App Screenshot](public/assets/images/app.png)
+
+## Overview
+
+This is a React powered employee directory app. Employees can be added/edited in the json file including four fields and an image section if desired. The "Name" column and the "Salary" column can be sorted in descending order by clicking on the header cell for each column.
 
 ## Available Scripts
 
@@ -66,3 +74,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
