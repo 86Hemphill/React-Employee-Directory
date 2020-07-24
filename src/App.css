@@ -15,3 +15,13 @@ td, tr {
   color: rgb(162, 162, 162) !important;
   cursor: s-resize;
 }
+
+@font-face {
+  font-family: GROBOLD;
+  src: url("./GROBOLD.ttf");
+}
+
+th {
+  font-size: 25px;
+  font-family: GROBOLD, serif;
+}
